@@ -122,8 +122,8 @@ img {
 
 /* Définition de la roue */
 .roue {
-  width: 100px;           /* diamètre de la roue */
-  height: 100px;
+  width: 50px;           /* diamètre de la roue */
+  height: 50px;
   border-radius: 50%;     /* cercle parfait */
   border: 10px solid #ddd; /* couleur claire */
   border-top: 10px solid #4B0082; /* couleur foncée sur le haut */
