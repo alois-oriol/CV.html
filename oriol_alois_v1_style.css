@@ -125,7 +125,7 @@ img {
   width: 50px;           /* diamètre de la roue */
   height: 50px;
   border-radius: 50%;     /* cercle parfait */
-  border: 10px solid #ddd; /* couleur claire */
+  border: 10px solid #ff0000; /* couleur claire */
   border-top: 10px solid #4B0082; /* couleur foncée sur le haut */
   margin: 20px auto;
   /* Animation de rotation */
