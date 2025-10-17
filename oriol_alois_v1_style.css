@@ -120,6 +120,28 @@ img {
   }
 }
 
+/* Définition de la roue */
+.roue {
+  width: 100px;           /* diamètre de la roue */
+  height: 100px;
+  border-radius: 50%;     /* cercle parfait */
+  border: 10px solid #ddd; /* couleur claire */
+  border-top: 10px solid #4B0082; /* couleur foncée sur le haut */
+  margin: 20px auto;
+  /* Animation de rotation */
+  animation: roueTourne 3s linear infinite;
+}
+
+/* Animation de rotation de 0° à 360° */
+@keyframes roueTourne {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 nav {
   margin-top: 15px;
   margin-bottom: 20px;
