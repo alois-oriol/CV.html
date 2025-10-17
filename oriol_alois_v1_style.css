@@ -107,4 +107,18 @@ nav a:hover {
     flex-direction: column;
     align-items: flex-start;
   }
+.apparition {
+  opacity: 0; 
+  animation: fade-in 2s ease forwards; /* durée : 2 secondes */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 }/*# sourceMappingURL=oriol_alois_v1_style.css.map */
