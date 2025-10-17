@@ -13,7 +13,24 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 20px;
-  animation: monanimnulle 4s 1;
+  /* Animation */
+  animation: titreAnimation 2s ease-out forwards;
+}
+
+/* Définition de l'animation pour le h1 */
+@keyframes titreAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.8);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateY(10px) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 hr {
@@ -107,18 +124,6 @@ nav a:hover {
     flex-direction: column;
     align-items: flex-start;
   }
-.apparition {
-  opacity: 0; 
-  animation: fade-in 2s ease forwards; /* durée : 2 secondes */
 }
 
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-}/*# sourceMappingURL=oriol_alois_v1_style.css.map */
+/*# sourceMappingURL=oriol_alois_v1_style.css.map */
