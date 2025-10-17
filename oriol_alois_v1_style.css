@@ -1,8 +1,22 @@
 html {
   text-align: center;
-  background-color: #f8f5e9;
+  background-color: #f8f5e9; /* couleur de départ */
   font-family: "Segoe UI", Arial, sans-serif;
   color: #333;
+  /* Animation du fond de la page */
+  animation: pageBackground 10s ease-in-out infinite;
+}
+
+@keyframes pageBackground {
+  0% {
+    background-color: #f8f5e9; /* couleur de départ */
+  }
+  50% {
+    background-color: #e6d0f0; /* couleur intermédiaire */
+  }
+  100% {
+    background-color: #f8f5e9; /* retour à la couleur de départ */
+  }
 }
 
 h1 {
@@ -103,24 +117,6 @@ img {
   }
   100% {
     transform: translateX(0) translateY(0);
-  }
-}
-
-/* Animation pour changer progressivement le fond des sections */
-section {
-  background-color: #f8f5e9; /* couleur de départ */
-  animation: sectionColor 8s ease-in-out infinite;
-}
-
-@keyframes sectionColor {
-  0% {
-    background-color: #f8f5e9; /* couleur de départ */
-  }
-  50% {
-    background-color: #693282; /* couleur intermédiaire */
-  }
-  100% {
-    background-color: #85732c; /* retour à la couleur de départ */
   }
 }
 
