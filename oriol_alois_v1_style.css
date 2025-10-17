@@ -89,6 +89,21 @@ img {
   border-radius: 10px;
   margin-top: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  /* Animation de mouvement */
+  animation: imageBouge 4s ease-in-out infinite;
+}
+
+/* Animation pour faire bouger l'image */
+@keyframes imageBouge {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(10px) translateY(-5px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
 }
 
 nav {
