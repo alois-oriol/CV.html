@@ -117,10 +117,10 @@ section {
     background-color: #f8f5e9; /* couleur de départ */
   }
   50% {
-    background-color: #e6d0f0; /* couleur intermédiaire */
+    background-color: #693282; /* couleur intermédiaire */
   }
   100% {
-    background-color: #f8f5e9; /* retour à la couleur de départ */
+    background-color: #85732c; /* retour à la couleur de départ */
   }
 }
 
