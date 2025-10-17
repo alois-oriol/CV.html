@@ -106,22 +106,21 @@ img {
   }
 }
 
-/* Animation pour changer la couleur de fond des sections */
+/* Animation pour changer progressivement le fond des sections */
 section {
-  background-color: #f8f5e9;
-  transition: background-color 0.5s;
-  animation: sectionColor 6s ease-in-out infinite;
+  background-color: #f8f5e9; /* couleur de départ */
+  animation: sectionColor 8s ease-in-out infinite;
 }
 
 @keyframes sectionColor {
   0% {
-    background-color: #f8f5e9;
+    background-color: #f8f5e9; /* couleur de départ */
   }
   50% {
     background-color: #e6d0f0; /* couleur intermédiaire */
   }
   100% {
-    background-color: #f8f5e9;
+    background-color: #f8f5e9; /* retour à la couleur de départ */
   }
 }
 
