@@ -1,60 +1,46 @@
-//  Variables de style principales
-$violet: #4B0082;
-$magenta: darkmagenta;
-$fond: #f8f5e9;
-$texte: #333;
-$police: "Segoe UI", Arial, sans-serif;
-
-//  PAGE GLOBALE
 html {
   text-align: center;
-  background-color: $fond;
-  font-family: $police;
-  color: $texte;
+  background-color: #f8f5e9;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
 }
 
-//  TITRE PRINCIPAL
 h1 {
   text-align: center;
   font-weight: 300;
   font-size: 2.2em;
-  color: $violet;
+  color: #4B0082;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 20px;
 }
 
-//  SÉPARATEUR
 hr {
   width: 60%;
   border: none;
   height: 2px;
-  background-color: $magenta;
+  background-color: darkmagenta;
   margin: 20px auto;
   border-radius: 5px;
 }
 
-//  SOUS-TITRES
 h2 {
-  color: $magenta;
+  color: darkmagenta;
   margin-top: 30px;
-  border-bottom: 2px solid $magenta;
+  border-bottom: 2px solid darkmagenta;
   display: inline-block;
   padding-bottom: 5px;
 }
 
-//  LIENS
 a {
-  color: $magenta;
+  color: darkmagenta;
   text-decoration: underline;
   font-weight: bold;
-
-  &:hover {
-    color: $violet;
-  }
+}
+a:hover {
+  color: #4B0082;
 }
 
-//  TABLEAU (centres d’intérêt)
 table {
   margin: 20px auto;
   border-collapse: collapse;
@@ -63,52 +49,43 @@ table {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
-
-  th {
-    background-color: $magenta;
-    color: white;
-    padding: 10px;
-    font-weight: 600;
-  }
-
-  td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-  }
-
-  tr:last-child td {
-    border-bottom: none;
-  }
-
-  tr:hover {
-    background-color: #f0e6f9;
-  }
+}
+table th {
+  background-color: darkmagenta;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+}
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+table tr:last-child td {
+  border-bottom: none;
+}
+table tr:hover {
+  background-color: #f0e6f9;
 }
 
-//  IMAGE
 img {
   border-radius: 10px;
   margin-top: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-//  MENU DE NAVIGATION
 nav {
   margin-top: 15px;
   margin-bottom: 20px;
-
-  a {
-    margin: 0 10px;
-    color: $magenta;
-    font-weight: 500;
-
-    &:hover {
-      color: $violet;
-    }
-  }
+}
+nav a {
+  margin: 0 10px;
+  color: darkmagenta;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #4B0082;
 }
 
-//  RESPONSIVE
 @media screen and (max-width: 600px) {
   #informations-personnelles,
   #formation,
@@ -120,15 +97,13 @@ nav {
     margin: 20px auto;
     padding: 10px;
   }
-
   ul,
   ol {
     display: block;
     text-align: left;
   }
-
   #informations-personnelles p {
     flex-direction: column;
     align-items: flex-start;
   }
-}
+}/*# sourceMappingURL=oriol_alois_v1 style.css.map */
